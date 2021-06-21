@@ -125,7 +125,7 @@ def main():
 
 
 while True:
-    ans = input('Play Again? Y/N')
+    ans = input('Start Game? Y/N \n')
     if ans.lower() == 'y' or ans.lower() == 'yes':
         board = [' ' for x in range(10)]
         print('====================================================================')
